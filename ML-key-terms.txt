@@ -1,202 +1,33 @@
-<!DOCTYPE html>
-<!-- saved from url=(0030)https://www.onlinewordpad.com/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+Machine Learning important Terms:
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="index, follow">
-<title>Online Wordpad For Taking Notes</title>
-<meta name="description" content="Online wordpad to type your notes while browsing on the internet.">
-<link rel="shortcut icon" href="https://www.onlinewordpad.com/img/onlinewordpad.png" type="image/x-icon">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Online Wordpad For Taking Notes">
-<meta property="og:description" content="Online wordpad to type your notes while browsing on the internet.">
-<meta property="og:url" content="https://www.onlinewordpad.com/">
-<meta property="og:image" content="https://www.onlinewordpad.com/img/online-wordpad.jpg">
-<link rel="stylesheet" href="./ML-key-terms_files/bulma.min.css">
-<link rel="stylesheet" href="./ML-key-terms_files/style.css">
-<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
-<link rel="dns-prefetch" href="https://www.google-analytics.com/">
-<link rel="canonical" href="https://www.onlinewordpad.com/">
-<script async="" src="./ML-key-terms_files/js"></script>
-<script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-  
-      gtag('config', 'G-43Q3MGJ7JW');
-    </script>
-<meta name="google-adsense-account" content="ca-pub-5659533745029343">
-<script async="" src="./ML-key-terms_files/f.txt" crossorigin="anonymous"></script>
-</head>
-<body class="has-background-black has-text-white is-family-primary is-size-6">
-<header>
-<nav class="navbar px-6 has-background-dark" role="navigation" aria-label="main navigation">
-<div class="navbar-brand">
-<a class="navbar-item has-text-white is-size-4 has-text-weight-bold" href="https://www.onlinewordpad.com/">Online Wordpad</a>
-<a role="button" class="navbar-burger has-text-white" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-<span aria-hidden="true"></span>
-<span aria-hidden="true"></span>
-<span aria-hidden="true"></span>
-</a>
-</div>
-<div id="navbarBasicExample" class="navbar-menu has-background-dark">
-<div class="navbar-end">
-<div class="navbar-item">
-<a href="https://www.onlinewordpad.com/privacy.html" class="navbar-item has-text-white">Privacy Policy</a>
-<a href="https://www.onlinewordpad.com/disclaimer.html" class="navbar-item has-text-white">Disclaimer</a>
-<a href="https://www.onlinewordpad.com/about.html" class="navbar-item has-text-white">About Us</a>
-<a href="https://www.onlinewordpad.com/contact.html" class="navbar-item has-text-white">Contact Us</a>
-</div>
-</div>
-</div>
-</nav>
-</header>
-<div class="container">
-<div class="buttons is-centered">
-<button id="btndown" class="button is-black is-small mr-2 p-0" title="Download Note"><img src="./ML-key-terms_files/download.svg" alt="Save Icon" width="30" height="30"></button>
-<button class="button is-black is-small mx-2 p-0" onclick="clean()" title="Delete Note"><img src="./ML-key-terms_files/delete.svg" alt="Delete Icon" width="30" height="30"></button>
-<label class="button is-black is-small mx-2 p-0" for="upload" title="Upload Note"><img src="./ML-key-terms_files/upload.svg" alt="Upload Icon" width="30" height="30"></label>
-<button id="btntheme" class="button is-black is-small ml-2 p-0" onclick="toggleTheme()" title="Change Theme"><img src="./ML-key-terms_files/sun.svg" alt="Theme Icon" width="30" height="30"></button>
-</div>
-</div>
-<div class="container mx-7">
-<textarea id="themeTextarea" class="p-3 is-size-5 is-family-monospace" placeholder="Click Here To Type." style="background-color: rgb(54, 54, 54); color: rgb(255, 255, 255);"></textarea>
-</div>
-<input class="is-hidden" type="file" id="upload" onchange="loadFile(this.files[0])" accept="text/plain">
-<section class="section">
-<div class="container mb-2">
-<h1 class="title">Online Wordpad For Taking Notes</h1>
-<p class="subtitle">A best and free online text editor like wordpad online to write your text notes while browsing on internet. Online wordpad makes it super easy to create or edit text files right in your web browser. No fancy installations – just upload your file, and you are set. The text editor feels like the ones you are used to, so it is easy to use.</p>
-<div class="buttons is-centered">
-<figure class="image">
-<img title="Online Wordpad" alt="Online Wordpad" src="./ML-key-terms_files/online-wordpad.jpg" width="900" height="506">
-</figure>
-</div>
-</div>
-<div class="container">
-<h2 class="title">How to use this Wordpad?</h2>
-<p>It is very easy to use our Wordpad tool. Follow the following steps to use all features of this tool.</p>
-<div class="content">
-<ul>
-<li>- Start typing your notes on an empty text area.</li>
-<li>- If you have already typed text notes you can upload them by using the upload option.</li>
-<li>- After typing your notes you can leave the window and come back later your notes will be available in the text area.</li>
-<li>- You can also save your notes using save button.</li>
-<li>- If you want to type new notes click on the Bin icon to clear the notes.</li>
-<li>- Click on Sun icon to change the theme color of text area.</li>
-</ul>
-</div>
-<h2 class="title">Online Wordpad Features</h2>
-<div class="content">
-<ul>
-<li>- You can use both dark mode and light mode</li>
-<li>- No Login Required</li>
-<li>- Save notes as Text file</li>
-<li>- Upload text notes</li>
-<li>- No Installation Required</li>
-<li>- One-click clear textarea</li>
-<li>- Free to use</li>
-<ul>
-</ul></ul></div>
-<h2 class="title">Wordpad useful shortcut keys:</h2>
-<div class="table-container">
-<table class="table  has-background-dark has-text-white">
-<tbody>
-<tr>
-<th class="has-text-warning">Operation</th>
-<th class="has-text-warning">Shortcut key</th>
-<th class="has-text-warning">Description</th>
-</tr>
-<tr>
-<td>Open</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>O</kbd></td>
-<td>Open Text File From Your Saved Files</td>
-</tr>
-<tr>
-<td>Save</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>S</kbd></td>
-<td>Save Text As a Text File in Your Drive</td>
-</tr>
-<tr>
-<td>Cut</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>X</kbd></td>
-<td>To Copy and Delete Selected Text From Text Area</td>
-</tr>
-<tr>
-<td>Copy</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>C</kbd></td>
-<td>To Copy Selected Text</td>
-</tr>
-<tr>
-<td>Paste</td>
-<td><kbd>Ctrl</kbd>+<kbd>V</kbd></td>
-<td>Paste Text That Was Cut or Copied</td>
-</tr>
-<tr>
-<td>Delete</td>
-<td><kbd>Delete</kbd></td>
-<td>Delete Selected Text</td>
-</tr>
-<tr>
-<td>Select all</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>A</kbd></td>
-<td>Select All Text On Textarea</td>
-</tr>
-<tr>
-<td>Undo</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>Z</kbd></td>
-<td>Undo Last Editing Change</td>
-</tr>
-<tr>
-<td>Redo</td>
-<td><kbd>Ctrl</kbd>&nbsp;+&nbsp;<kbd>Y</kbd></td>
-<td>Do Again Editing Change</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 class="title">Who Can Use Our Online WordPad?</h2>
-<p>Usage of this wordpad tool are not limited to some specific group of people. Everyone who is browsing on the internet can use our tool to type their notes. Still this tool may useful for the following purposes.</p>
-<p><b>Students:</b> This is very useful tool for the student to make notes of their assignments and homeworks.</p>
-<p><b>Teachers:</b> Teachers can use this tool to type the question papers.</p>
-<p><b>Researchers:</b> Researcher can take advantage of this tool from any part of the world.</p>
-<p><b>Developers:</b> Developers can type their HTML, CSS, JavaScript Code very easily to make their project.</p>
-<p><b>Bloggers:</b> One of the main users of this tool are bloggers. They need this type of tool to make notes of their blogs while browsing on the internet.</p>
-<h2 class="title">Tool that will help you anytime, anywhere without installation.</h2>
-<p>Online tools have a cool advantage: no need to worry about which device you are using. Unlike offline tools that require installing on each device. Imagine wanting to use a tool on three devices at once – online wordpad tool let you do that hassle-free.
-This online wordpad is super easy. You don't have to install it on your devices, and it works on anything with an internet connection. It is a great alternative to your offline Notepad apps/softwares.</p><br>
-<p>Sometimes, you have to edit lots of documents. Like a big research paper with many parts. You need a tool that is free and lets you edit as much as you want. That is what this tool is all about – no limits, and it's great for students, professionals, and anyone who needs to edit stuff.
-Installing a text editor can be a pain. You have to check if it works on your laptop, tablet, or phone. Then, you install it separately on each device if you want to use it everywhere.
-Take students, for example. They often have editing tools on their tablets and phones. It is very handy for when they remember an assignment needs editing while on the go. This online wordpad editor is perfect – no installs, just open it if your device has internet.</p>
-<div>
-<h2 class="title">Frequently Asked Questions</h2>
-<h3 class="title is-4">Is this online wordpad free?</h3>
-<p>Yes, this wordpad is completely free to use. You can use it for free on all your devices from anywhere in the world with its all features.</p>
-<h3 class="title is-4 mt-2">Can I use this tool without login?</h3>
-<p>There is no login required to use our online tool, and it saves your data on your local storage so that you can access it anytime.</p>
-<h3 class="title is-4 mt-2">Can I save my note file?</h3>
-<p>Yes, you can save your file after completing the editing for this you can use the save arrow button.</p>
-<h3 class="title is-4 mt-2">Can I upload note file?</h3>
-<p>Yes you can upload your file if you have it already typed. You can also edit that file.</p>
-<h3 class="title is-4 mt-2">What format does WordPad save in?</h3>
-<p>When you will save your file on your device it will save in the text format you can open it afterward by using inbuild softwares.</p>
-<h3 class="title is-4 mt-2">Can this tool count words?</h3>
-<p>No, right now we don't provide function to count the words that user type on textarea but in near future we will definetly going to provide you this type of features.</p>
-<h3 class="title is-4 mt-2">Is WordPad rich text?</h3>
-<p>No, you can not use it as rich text. For using rich text editor you can search on google for better results.</p>
-<h3 class="title is-4 mt-2"></h3>
-</div>
-</div>
-</section>
+Feature: The input(s) to our model
 
-<footer class="footer has-background-dark p-5">
-<div class="content has-text-centered">
-<p>2024 OnlineWordpad.com All Right Reserved</p>
-</div>
-</footer>
-<script src="./ML-key-terms_files/script.js"></script>
-<script src="./ML-key-terms_files/service-worker.js"></script>
+Examples: An input/output pair used for training
 
-</body></html>
+Labels: The output of the model
+
+Layer: A collection of nodes connected together within a neural network.
+
+Model: The representation of your neural network
+
+Dense and Fully Connected (FC): Each node in one layer is connected to each node in the previous layer.
+
+Weights and biases: The internal variables of model. Weights set the standards for the neuron's signal strength. This value will determine the influence input data has on the output product. Biases give extra characteristics with a value of 1 that the neural network did not previously have. The neural network needs that extra information to efficiently propagate forward.
+
+Loss: The discrepancy between the desired output and the actual output
+
+MSE: Mean squared error, a type of loss function that counts a small number of large discrepancies as worse than a large number of small ones.
+
+Gradient Descent: An algorithm that changes the internal variables a bit at a time to gradually reduce the loss function.
+
+Optimizer: A specific implementation of the gradient descent algorithm. (There are many algorithms for this.“Adam” Optimizer, which stands for ADAptive with Momentum is considered the best-practice optimizer.)
+
+Learning rate: The “step size” for loss improvement during gradient descent.
+
+Batch: The set of examples used during training of the neural network
+
+Epoch: A full pass over the entire training dataset
+
+Forward pass: The computation of output values from input
+
+Backward pass (backpropagation): The calculation of internal variable adjustments according to the optimizer algorithm, starting from the output layer and working back through each layer to the input.
